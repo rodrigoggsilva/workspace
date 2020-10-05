@@ -1,0 +1,23 @@
+package Teste;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TesteLista {
+
+	public static void main(String[] args) {
+		
+		// String X[] = new String[2];
+		
+		//Collection com Generics
+		List <String> lista = new ArrayList<String>();
+		lista.add("DBA");
+		lista.add("DEV");
+		lista.add("DBA");
+		lista.add("ANALISTA");
+		lista.add("ESTAGIARIO");
+		System.out.println(lista);
+		System.out.println("Segundo elemento da lista: " + lista.get("2","4"));
+	}
+
+}

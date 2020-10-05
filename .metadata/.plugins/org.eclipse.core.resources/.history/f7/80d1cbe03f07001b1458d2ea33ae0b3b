@@ -1,0 +1,16 @@
+package br.com.colecoes.teste;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.colecoes.modelo.Cargo;
+
+public class TesteListaObjeto {
+
+	public static void main(String[] args) {
+		List<Cargo> lista = new ArrayList<Cargo>();
+		
+
+	}
+
+}

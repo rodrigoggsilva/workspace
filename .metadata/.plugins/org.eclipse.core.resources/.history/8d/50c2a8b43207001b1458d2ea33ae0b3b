@@ -1,0 +1,17 @@
+package Teste;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TesteLista {
+
+	public static void main(String[] args) {
+		
+		// String X[] = new String[2];
+		
+		//Collection com Generics
+		List <String> lista = new ArrayList<String>();
+		lista.add("DBA");
+	}
+
+}

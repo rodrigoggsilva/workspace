@@ -1,0 +1,12 @@
+package Teste;
+
+public class TesteLista {
+
+	public static void main(String[] args) {
+		
+		// String X[] = new String[2];
+		
+		Lista lista = new ArrayList();
+	}
+
+}

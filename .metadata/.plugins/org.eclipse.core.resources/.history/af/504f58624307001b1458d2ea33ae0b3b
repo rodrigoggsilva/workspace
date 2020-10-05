@@ -1,0 +1,39 @@
+package br.com.colecoes.teste;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import br.com.colecoes.modelo.Cargo;
+
+public class TesteListaObjeto {
+
+	public static void main(String[] args) {
+		List<Cargo> lista = new ArrayList<Cargo>();
+		//Cargo objeto = new Cargo();
+		//objeto.setNome(JOptionPane.showInputDialog("Cargo").toUpperCase());
+		//objeto.setNivel(JOptionPane.showInputDialog("Nível"));
+		//objeto.setSalario(Float.parseFloat(JOptionPane.showInputDialog("Salário")));
+		//lista.add(objeto);
+		//System.out.println(lista.get(0).getAll());
+
+		do { 
+			lista.add(new Cargo(
+					JOptionPane.showInputDialog("Nome do Cargo"),
+					JOptionPane.showInputDialog("Nível"),
+					Float.parseFloat(JOptionPane.showInputDialog("Salário"))));
+
+		}while(JOptionPane.showConfirmDialog
+				(null,  "Continuar?", "Pergunta", JOptionPane.YES_NO_OPTION)==0);
+		
+		for (Cargo obj : lista) {
+			System.out.println(obj.getAll());
+		}
+
+
+		//System.out.println(lista.get(0).getAll());
+
+	} 
+
+}

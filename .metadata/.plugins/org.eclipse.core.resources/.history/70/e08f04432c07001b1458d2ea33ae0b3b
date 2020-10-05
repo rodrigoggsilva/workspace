@@ -1,0 +1,18 @@
+package br.com.excecao.teste;
+
+public class TesteExcecao {
+
+	public static void main(String[] args) {
+		try {
+		int numero = Integer.parseInt("7");
+		System.out.println(numero);
+		
+		String palavra=null;
+		System.out.println(palavra.length());
+		
+		}catch(NumberFormatException e) {
+			e.printStackTrace();
+			System.out.println("Deu ruim");
+		}
+	}
+}

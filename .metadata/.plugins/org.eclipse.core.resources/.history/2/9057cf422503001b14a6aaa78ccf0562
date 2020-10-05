@@ -1,0 +1,28 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioRepeticao {
+
+	public static void main(String[] args) {
+				
+			int jogador1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador 1"));
+			do {
+			int jogador2 = Integer.parseInt(JOptionPane.showInputDialog("Jogador 2"));
+			char resposta = JOptionPane.showInputDialog("Adivinhe a resposta do Jogador1").charAt(0);
+			if (resposta +jogador1 == +jogador2) {
+				System.out.println("Parabéns, você acertou ");
+			}else if (resposta=='>') {
+				System.out.println("Seu número é maior: " + (resposta));
+			}else if (resposta=='<') {
+				System.out.println("Seu número é menor: " + (resposta));
+			}else {
+				System.out.println("Tente novamente!");
+
+			
+			}
+			
+			
+			}
+	}
+}

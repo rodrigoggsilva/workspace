@@ -1,0 +1,29 @@
+package br.com.universidade.modelo;
+
+import javax.swing.JOptionPane;
+
+public class Universidade {
+	
+	private int rm;
+	private String nome;
+	private String email;
+	
+	public String exibirTudo() {
+		return
+				"Matrícula do Aluno:" + rm + "\n" +
+				"Nome do Aluno     :" + nome + "\n" +
+				"E-mail do Aluno : "  + email;
+				}
+	
+	public void matriculaAluno(int rm) {
+		matriculaAluno  = rm;
+		
+			}
+
+}
+	
+	
+	
+	
+	
+	}

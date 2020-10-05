@@ -1,0 +1,32 @@
+package br.com.universidade.modelo;
+
+public class Medio extends formacao {
+	
+	private int tipo;
+	
+	public void setAll()
+		super();
+		this.tipo = tipo;
+	}
+	
+
+	public Medio() {
+		super();
+	}
+
+	public Medio(int tipo) {
+		super();
+		this.tipo = tipo;
+	}
+
+	public int getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(int tipo) {
+		this.tipo = tipo;
+	}
+	
+	
+
+}

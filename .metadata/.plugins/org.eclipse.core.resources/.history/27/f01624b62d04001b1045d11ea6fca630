@@ -1,0 +1,13 @@
+package ecommerce.implementacao;
+
+import br.com.universidade.modelo.Endereco;
+
+public class TesteVenda {
+
+	public static void main(String[] args) {
+		produto = new Produto();
+		
+
+	}
+
+}

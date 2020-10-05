@@ -1,0 +1,16 @@
+package variaveis;
+
+public class ExemploProduto {
+
+	public static void main(String[] args) {
+		// Solicitar os dados:
+		// nome do produto
+		// quantidade
+		// valor
+		// Exibir o total e o nome do produto
+		// Exibir o total com 10¢ de desconto
+		
+
+	}
+
+}

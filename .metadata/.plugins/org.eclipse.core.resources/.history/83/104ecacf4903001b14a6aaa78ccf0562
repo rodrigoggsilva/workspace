@@ -1,0 +1,12 @@
+package br.com.lojauati.modelo;
+
+public class Formula1 {
+	private String escuderia;
+	private float valor;
+	private int rpm;
+//sintaxe para criação de métodos no Java
+//	<modificador> <tipo do retorno> <nome do retorno> (<tipo do param> <nome do param>) {...}
+	public void preencherEscuderia(String parametro) { 
+	
+	}
+}

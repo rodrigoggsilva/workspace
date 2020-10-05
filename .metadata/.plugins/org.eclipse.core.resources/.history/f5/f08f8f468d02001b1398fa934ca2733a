@@ -1,0 +1,19 @@
+package exercicios;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		String figuraGeometrica = JOptionPane.showInputDialog("Digite a figura geometrica").toUpperCase();
+		float base = Float.parseFloat(JOptionPane.showInputDialog("Digite a base: "));
+		float altura = Float.parseFloat(JOptionPane.showInputDialog("Digite a altura: "));
+		
+
+
+}
+
+}
+
+
+

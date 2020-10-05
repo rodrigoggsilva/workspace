@@ -1,0 +1,11 @@
+package br.com.universidade.modelo;
+
+public class Pos extends Formacao {
+
+	private String nivel;
+	private boolean planoEstendido;
+
+	
+	
+
+}

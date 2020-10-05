@@ -1,0 +1,29 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		String nomeCliente = JOptionPane.showInputDialog("Digite seu nome").toUpperCase();
+		String regiao = JOptionPane.showInputDialog("Digite a região que você mora").toUpperCase();
+		short tempoFidelidade = Short.parseShort(JOptionPane.showInputDialog("Digite o tempo de fidelidade em anos"));
+		float valorInvestido = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor investido: "));
+		float valorAtual=0;
+		
+		if (regiao.equals("SUL") || regiao.equals("SUDESTE")) {
+			tempoFidelidade = (short) (tempoFidelidade * 1.20);
+			
+				
+		}
+		
+		
+		//float regiao = Float.parseFloat(JOptionPane.showInputDialog("Onde você mora?"));
+				
+		//if (regiao.equals="sul" || regiao.equals="sudeste") {
+			//System.out.println("acréscimo de 20%");
+		//}else if (tempoFidelidade)
+
+	}
+
+}

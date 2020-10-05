@@ -1,0 +1,13 @@
+package br.com.universidade.implementacao;
+
+import javax.swing.JOptionPane;
+
+public class TesteFormacao {
+
+	public static void main(String[] args) {
+		Formacao formacao = new Medio();
+		char resp = JOptionPane.showInputDialog("Digite:\n<1> Medio\n<2>Bacharelado\N<3>Pos").charAt(0);
+		
+	}
+
+}

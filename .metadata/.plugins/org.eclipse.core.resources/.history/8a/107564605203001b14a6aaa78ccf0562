@@ -1,0 +1,38 @@
+package br.com.lojauati.modelo;
+
+public class Formula1 {
+	private String escuderia;
+	private float valor;
+	private int rpm;
+	
+	//Criar os metos para preencher o rpm e o valor e os metodos para exibir rpm e o valor
+	
+	public int exibirRpm() {
+		return rpm;
+		}
+	
+	public float exibirValor() {
+		return valor;
+	}
+	public void preencherValor(float parametro) {
+		if (parametro>0) {
+			valor=parametro;
+			
+		}
+	}
+	public void preencherRpm(int parametro) {
+		rpm=parametro;
+		
+	}
+	
+	public String exibirEscuderia() {
+		return escuderia;
+	}
+	
+	
+//sintaxe para criação de métodos no Java
+//	<modificador> <tipo do retorno> <nome do retorno> (<tipo do param> <nome do param>) {...}
+	public void preencherEscuderia(String parametro) { 
+	escuderia = parametro.toUpperCase();
+	}
+}

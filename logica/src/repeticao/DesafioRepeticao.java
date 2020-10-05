@@ -1,0 +1,25 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioRepeticao {
+
+	public static void main(String[] args) {
+
+		int numero = Integer.parseInt(JOptionPane.showInputDialog("digite o número"));
+		int chute = 0;
+		int tentativas=0;
+		do {
+			chute = Integer.parseInt(JOptionPane.showInputDialog("Digite o número a ser descoberto"));
+			if (chute>numero ) {
+				System.out.println("Digite um número menor");
+			}else if (chute<numero) {
+				System.out.println("Digite um número maior");
+			}
+			tentativas = tentativas+1;
+
+		}while (numero!=chute);
+		System.out.println("Parabéns você acertou!");
+		System.out.println(+chute + " tentativas");
+	}
+}

@@ -1,0 +1,32 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoComposta {
+
+	public static void main(String[] args) {
+		
+String nome = JOptionPane.showInputDialog("Digite o nome do aluno").toUpperCase();
+
+	float nota1 = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota1"));
+    float nota2 = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota2"));
+    float media = (nota1 + nota2) / 2;
+    float faltas = Float.parseFloat(JOptionPane.showInputDialog("Digite o número total de faltas"));
+    
+    if (media>=6) {
+    	System.out.println("Parabens " + nome + " você está aprovado!!!");
+    }else if (faltas>20) {
+        	System.out.println("Aluno " + nome + " Você estourou a quantidade total de faltas. Está Reprovado!!");
+    }else if (media<=5) {
+    	System.out.println("Não foi dessa vez " + nome + " você está Ferrado!!!");
+    }else if (media<4) {
+    	System.out.println("Infelizmente  " + nome + " Você foi reprovado!!!!!!");
+    }
+    if (media>=4 && media<=5.9){
+    	System.out.println( nome + "  você ainda tem chance no exame");	
+    
+    }
+	}
+
+}
+//System.out.println("Aluno: " + nome + " Sua média foi : " + media);

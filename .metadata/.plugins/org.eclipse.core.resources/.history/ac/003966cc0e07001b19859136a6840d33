@@ -1,0 +1,7 @@
+package br.com.universidade.padroes;
+
+public interface PadroaFormacao {
+ double calcularMensalidade(float fator);
+ void definirDuracao();
+ 
+}
